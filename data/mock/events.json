@@ -1,0 +1,162 @@
+{
+  "data": {
+    "nodeEvents": {
+      "__typename": "NodeEventConnection",
+      "nodes": [
+        {
+          "__typename": "NodeEvent",
+          "id": "event-open-house",
+          "title": "Spring Open House",
+          "path": "/events/spring-open-house",
+          "body": {
+            "processed": "<p>Discover everything Lakeview Community College has to offer at our Spring Open House. This free event is designed for prospective students, parents, and community members to explore our campus, meet faculty, and learn about our programs and services.</p><h2>What You Will Experience</h2><ul><li>Campus tours led by current student ambassadors</li><li>Department showcases with hands-on demonstrations</li><li>Financial aid and scholarship information sessions</li><li>Meet with academic advisors and enrollment counselors</li><li>Student club and organization fair</li><li>Complimentary lunch in the campus dining hall</li></ul><p>Pre-registration is encouraged but not required. Attendees who apply during Open House receive a waived application fee.</p>",
+            "summary": "Discover everything Lakeview Community College has to offer at our Spring Open House. This free event is designed for prospective students, parents, and community members to explore our campus, meet f"
+          },
+          "eventDate": {
+            "timestamp": 1775916000
+          },
+          "endDate": {
+            "timestamp": 1775934000
+          },
+          "location": "Lakeview Community College Main Campus",
+          "eventCategory": [
+            {
+              "id": "open-house",
+              "name": "open-house"
+            }
+          ],
+          "registrationUrl": "https://lakeviewcc.edu/open-house",
+          "cost": "Free",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+            "alt": "Students exploring campus during open house event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-career-fair",
+          "title": "Spring Career & Job Fair",
+          "path": "/events/spring-career-fair",
+          "body": {
+            "processed": "<p>Connect with over 75 local and regional employers at Lakeview Community College's Spring Career and Job Fair. Whether you are looking for full-time employment, part-time work, internships, or apprenticeships, this is your opportunity to make direct connections with hiring managers.</p><h2>Participating Industries</h2><ul><li>Healthcare and allied health</li><li>Information technology and cybersecurity</li><li>Manufacturing and skilled trades</li><li>Business and finance</li><li>Education and human services</li><li>Government and public safety</li></ul><h2>Prepare for Success</h2><p>The Career Center will host resume review sessions and mock interviews the week before the fair. Professional attire is recommended. Bring multiple copies of your resume.</p>",
+            "summary": "Connect with over 75 local and regional employers at Lakeview Community College's Spring Career and Job Fair. Whether you are looking for full-time employment, part-time work, internships, or apprenti"
+          },
+          "eventDate": {
+            "timestamp": 1776870000
+          },
+          "endDate": {
+            "timestamp": 1776884400
+          },
+          "location": "Student Center, Grand Hall",
+          "eventCategory": [
+            {
+              "id": "career-fair",
+              "name": "career-fair"
+            }
+          ],
+          "registrationUrl": "https://lakeviewcc.edu/career-fair",
+          "cost": "Free for students and alumni",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80",
+            "alt": "Students networking with employers at career fair",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeEvent",
+          "id": "event-commencement",
+          "title": "Commencement Ceremony 2026",
+          "path": "/events/commencement-2026",
+          "body": {
+            "processed": "<p>Join us in celebrating the achievements of the Class of 2026 at Lakeview Community College's annual Commencement Ceremony. This milestone event honors the hard work and dedication of our graduating students as they take the next step in their educational and career journeys.</p><h2>Ceremony Details</h2><ul><li>Doors open at 5:00 PM for guest seating</li><li>Processional begins promptly at 6:00 PM</li><li>Keynote address by alumna Dr. Veronica Reyes, Chief Medical Officer at Springfield Memorial Hospital</li><li>Presentation of degrees and certificates</li><li>Reception for graduates and families following the ceremony</li></ul><h2>For Graduates</h2><p>Cap and gown pick-up is available at the campus bookstore May 5-9 and May 12-14. Graduates must submit their commencement RSVP by April 30. Each graduate receives six guest tickets; additional tickets may be requested after April 15.</p>",
+            "summary": "Join us in celebrating the achievements of the Class of 2026 at Lakeview Community College's annual Commencement Ceremony. This milestone event honors the hard work and dedication of our graduating st"
+          },
+          "eventDate": {
+            "timestamp": 1778972400
+          },
+          "endDate": {
+            "timestamp": 1778981400
+          },
+          "location": "Lakeview Athletic Center",
+          "eventCategory": [
+            {
+              "id": "graduation",
+              "name": "graduation"
+            }
+          ],
+          "registrationUrl": "https://lakeviewcc.edu/commencement",
+          "cost": "Free (ticketed event)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Graduates celebrating at commencement ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

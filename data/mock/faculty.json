@@ -1,0 +1,167 @@
+{
+  "data": {
+    "nodeFaculties": {
+      "__typename": "NodeFacultyConnection",
+      "nodes": [
+        {
+          "__typename": "NodeFaculty",
+          "id": "faculty-chen",
+          "title": "Dr. Linda Chen",
+          "path": "/faculty/dr-linda-chen",
+          "body": {
+            "processed": "<p>Dr. Linda Chen is a Professor of Biology and the Health Sciences Department Chair at Lakeview Community College. With over 20 years of teaching experience, she is known for her engaging lectures, innovative use of technology in the classroom, and dedication to student success.</p><p>Dr. Chen's research interests include cellular biology and science pedagogy. She has published numerous articles on effective teaching strategies in community college science education and has received multiple teaching excellence awards. She serves as faculty advisor for the Pre-Health Professions Club.</p>",
+            "summary": "Dr. Linda Chen is a Professor of Biology and the Health Sciences Department Chair at Lakeview Community College. With over 20 years of teaching experience, she is known for her engaging lectures, inno"
+          },
+          "positionTitle": "Professor of Biology & Department Chair",
+          "department": [
+            {
+              "id": "health-sciences",
+              "name": "health-sciences"
+            },
+            {
+              "id": "science-mathematics",
+              "name": "science-mathematics"
+            }
+          ],
+          "email": "lchen@lakeviewcc.edu",
+          "phone": "(555) 700-2100",
+          "officeLocation": "Science Building, Room 310",
+          "officeHours": "Mon & Wed 2:00 PM - 4:00 PM, Fri by appointment",
+          "education": [
+            "Ph.D. in Cell Biology, University of Illinois",
+            "M.S. in Biology, Northwestern University",
+            "B.S. in Biochemistry, University of Chicago"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Dr. Linda Chen, Professor of Biology",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeFaculty",
+          "id": "faculty-martinez",
+          "title": "Professor Carlos Martinez",
+          "path": "/faculty/prof-carlos-martinez",
+          "body": {
+            "processed": "<p>Professor Carlos Martinez brings 15 years of industry experience in information security to the Cybersecurity program at Lakeview Community College. Before entering education, he served as Chief Information Security Officer at a Fortune 500 financial services firm, where he built and led a team of 40 security professionals.</p><p>Professor Martinez holds multiple industry certifications including CISSP, CISM, and CEH. He is passionate about preparing the next generation of cybersecurity professionals and regularly invites industry guest speakers to share real-world perspectives with students.</p>",
+            "summary": "Professor Carlos Martinez brings 15 years of industry experience in information security to the Cybersecurity program at Lakeview Community College. Before entering education, he served as Chief Infor"
+          },
+          "positionTitle": "Associate Professor of Cybersecurity",
+          "department": [
+            {
+              "id": "business-technology",
+              "name": "business-technology"
+            }
+          ],
+          "email": "cmartinez@lakeviewcc.edu",
+          "phone": "(555) 700-2200",
+          "officeLocation": "Technology Center, Room 215",
+          "officeHours": "Tue & Thu 1:00 PM - 3:00 PM, or by appointment",
+          "education": [
+            "M.S. in Information Security, Georgia Tech",
+            "B.S. in Computer Science, University of Texas"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Professor Carlos Martinez, Cybersecurity Instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeFaculty",
+          "id": "faculty-johnson",
+          "title": "Ms. Tamika Johnson",
+          "path": "/faculty/ms-tamika-johnson",
+          "body": {
+            "processed": "<p>Ms. Tamika Johnson is an Assistant Professor of English and the coordinator of the Developmental Writing program at Lakeview Community College. She specializes in composition, rhetoric, and developmental education, with a particular focus on supporting first-generation college students in building strong writing skills.</p><p>Ms. Johnson developed the college's co-requisite English model, which has doubled the completion rate for developmental writing students. She is a frequent presenter at national conferences on equitable teaching practices and was named the 2025 Faculty Member of the Year by the LCC Faculty Senate.</p>",
+            "summary": "Ms. Tamika Johnson is an Assistant Professor of English and the coordinator of the Developmental Writing program at Lakeview Community College. She specializes in composition, rhetoric, and developmen"
+          },
+          "positionTitle": "Assistant Professor of English",
+          "department": [
+            {
+              "id": "liberal-arts-humanities",
+              "name": "liberal-arts-humanities"
+            }
+          ],
+          "email": "tjohnson@lakeviewcc.edu",
+          "phone": "(555) 700-2300",
+          "officeLocation": "Humanities Building, Room 108",
+          "officeHours": "Mon, Wed, Fri 10:00 AM - 11:30 AM",
+          "education": [
+            "M.F.A. in Creative Writing, Columbia College Chicago",
+            "B.A. in English, Howard University"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Ms. Tamika Johnson, English Professor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

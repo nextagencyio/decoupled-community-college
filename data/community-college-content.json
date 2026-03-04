@@ -1,0 +1,434 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Community college homepage with hero, statistics, and call to action",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text" },
+        { "id": "stats_items", "label": "Statistics", "type": "paragraph(stat_item)[]" },
+        { "id": "featured_items_title", "label": "Featured Items Title", "type": "string" },
+        { "id": "cta_title", "label": "CTA Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "program",
+      "label": "Academic Program",
+      "description": "Degree and certificate programs offered by the college",
+      "body": true,
+      "fields": [
+        { "id": "program_type", "label": "Program Type", "type": "term(program_types)[]" },
+        { "id": "department", "label": "Department", "type": "term(departments)[]" },
+        { "id": "credential", "label": "Credential Earned", "type": "string" },
+        { "id": "duration", "label": "Program Duration", "type": "string" },
+        { "id": "credits", "label": "Total Credits", "type": "string" },
+        { "id": "tuition_estimate", "label": "Estimated Tuition", "type": "string" },
+        { "id": "start_dates", "label": "Start Dates", "type": "string" },
+        { "id": "career_outcomes", "label": "Career Outcomes", "type": "string[]" },
+        { "id": "image", "label": "Program Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "faculty",
+      "label": "Faculty Member",
+      "description": "College faculty and instructors",
+      "body": true,
+      "fields": [
+        { "id": "position_title", "label": "Position Title", "type": "string" },
+        { "id": "department", "label": "Department", "type": "term(departments)[]" },
+        { "id": "email", "label": "Email", "type": "string" },
+        { "id": "phone", "label": "Phone", "type": "string" },
+        { "id": "office_location", "label": "Office Location", "type": "string" },
+        { "id": "office_hours", "label": "Office Hours", "type": "string" },
+        { "id": "education", "label": "Education", "type": "string[]" },
+        { "id": "photo", "label": "Photo", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "event",
+      "label": "College Event",
+      "description": "Campus events, workshops, and student activities",
+      "body": true,
+      "fields": [
+        { "id": "event_date", "label": "Event Date", "type": "datetime" },
+        { "id": "end_date", "label": "End Date", "type": "datetime" },
+        { "id": "location", "label": "Location", "type": "string" },
+        { "id": "event_category", "label": "Event Category", "type": "term(event_categories)[]" },
+        { "id": "registration_url", "label": "Registration URL", "type": "string" },
+        { "id": "cost", "label": "Cost", "type": "string" },
+        { "id": "image", "label": "Event Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "news",
+      "label": "News",
+      "description": "College news and announcements",
+      "body": true,
+      "fields": [
+        { "id": "news_category", "label": "News Category", "type": "term(news_categories)[]" },
+        { "id": "publish_date", "label": "Publish Date", "type": "datetime" },
+        { "id": "author", "label": "Author", "type": "string" },
+        { "id": "summary", "label": "Summary", "type": "text" },
+        { "id": "image", "label": "Featured Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        { "id": "number", "label": "Number", "type": "string!", "description": "The statistic value" },
+        { "id": "label", "label": "Label", "type": "string!", "description": "What the number represents" }
+      ]
+    }
+  ],
+  "taxonomies": [
+    {
+      "vid": "program_types",
+      "name": "Program Types",
+      "terms": [
+        { "name": "Associate Degree" },
+        { "name": "Certificate" },
+        { "name": "Transfer Pathway" },
+        { "name": "Workforce Training" },
+        { "name": "Continuing Education" }
+      ]
+    },
+    {
+      "vid": "departments",
+      "name": "Departments",
+      "terms": [
+        { "name": "Business & Technology" },
+        { "name": "Health Sciences" },
+        { "name": "Liberal Arts & Humanities" },
+        { "name": "Science & Mathematics" },
+        { "name": "Skilled Trades" },
+        { "name": "Public Safety" }
+      ]
+    },
+    {
+      "vid": "event_categories",
+      "name": "Event Categories",
+      "terms": [
+        { "name": "Open House" },
+        { "name": "Workshop" },
+        { "name": "Student Life" },
+        { "name": "Career Fair" },
+        { "name": "Graduation" },
+        { "name": "Athletic Event" }
+      ]
+    },
+    {
+      "vid": "news_categories",
+      "name": "News Categories",
+      "terms": [
+        { "name": "Campus News" },
+        { "name": "Student Success" },
+        { "name": "Faculty Spotlight" },
+        { "name": "Athletics" },
+        { "name": "Press Release" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-enrollment",
+      "type": "paragraph.stat_item",
+      "values": { "number": "12,000+", "label": "Students Enrolled" }
+    },
+    {
+      "id": "stat-programs",
+      "type": "paragraph.stat_item",
+      "values": { "number": "85+", "label": "Degree & Certificate Programs" }
+    },
+    {
+      "id": "stat-transfer",
+      "type": "paragraph.stat_item",
+      "values": { "number": "92%", "label": "Transfer Acceptance Rate" }
+    },
+    {
+      "id": "stat-tuition",
+      "type": "paragraph.stat_item",
+      "values": { "number": "$4,200", "label": "Annual Tuition (In-District)" }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to Lakeview Community College",
+        "hero_title": "Your Future Starts Here",
+        "hero_subtitle": "Affordable, Accessible, Excellent Education",
+        "hero_description": "<p>Lakeview Community College offers over 85 degree and certificate programs designed to launch your career or transfer to a four-year university. With small class sizes, dedicated faculty, and tuition that is a fraction of university costs, LCC is the smart choice for your education.</p>",
+        "stats_items": ["@stat-enrollment", "@stat-programs", "@stat-transfer", "@stat-tuition"],
+        "featured_items_title": "Explore Our Programs",
+        "cta_title": "Apply Today",
+        "cta_description": "<p>Whether you are a recent high school graduate, a working adult looking to advance your career, or returning to education after time away, Lakeview Community College has a path for you. Apply in minutes with our streamlined online application.</p>",
+        "cta_primary": "Apply Now",
+        "cta_secondary": "Schedule a Visit"
+      }
+    },
+    {
+      "id": "program-nursing",
+      "type": "node.program",
+      "path": "/programs/registered-nursing",
+      "values": {
+        "title": "Registered Nursing (ADN)",
+        "body": "<p>The Associate Degree in Nursing (ADN) program at Lakeview Community College prepares students to become registered nurses ready to provide compassionate, evidence-based patient care in hospitals, clinics, long-term care facilities, and community health settings.</p><h2>Program Highlights</h2><ul><li>Accredited by the Accreditation Commission for Education in Nursing (ACEN)</li><li>State-of-the-art simulation lab with high-fidelity patient simulators</li><li>Clinical rotations at six partnering healthcare facilities</li><li>95% NCLEX-RN first-time pass rate (above national average)</li><li>Pathway agreements with four-year BSN programs for seamless transfer</li></ul><h2>Curriculum Overview</h2><p>The program spans four semesters of nursing courses plus prerequisites. Students gain hands-on experience through over 600 hours of supervised clinical practice. Coursework covers fundamentals of nursing, pharmacology, medical-surgical nursing, pediatrics, obstetrics, and mental health nursing.</p>",
+        "program_type": ["associate-degree"],
+        "department": ["health-sciences"],
+        "credential": "Associate Degree in Nursing (ADN)",
+        "duration": "2 years (4 semesters plus prerequisites)",
+        "credits": "72 credits",
+        "tuition_estimate": "$8,400 in-district (tuition only)",
+        "start_dates": "Fall semester (August)",
+        "career_outcomes": ["Registered Nurse", "Hospital Staff Nurse", "Clinic Nurse", "Home Health Nurse", "Long-Term Care Nurse"],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+          "alt": "Nursing student practicing clinical skills in simulation lab"
+        }
+      }
+    },
+    {
+      "id": "program-cybersecurity",
+      "type": "node.program",
+      "path": "/programs/cybersecurity",
+      "values": {
+        "title": "Cybersecurity",
+        "body": "<p>The Cybersecurity program at Lakeview Community College equips students with the technical skills and knowledge needed to protect organizations from cyber threats. With cybersecurity jobs projected to grow 35% over the next decade, graduates enter one of the most in-demand fields in technology.</p><h2>Program Highlights</h2><ul><li>Hands-on labs using industry-standard tools (Wireshark, Kali Linux, Splunk)</li><li>Preparation for CompTIA Security+, CySA+, and CISSP certifications</li><li>Dedicated cyber range for attack simulation and defense practice</li><li>Industry advisory board ensures curriculum matches employer needs</li><li>Internship placement assistance with local employers</li></ul><h2>Curriculum Overview</h2><p>Students study network security, ethical hacking, digital forensics, risk management, and security operations. The program includes both theoretical foundations and extensive practical labs that simulate real-world cybersecurity scenarios.</p>",
+        "program_type": ["associate-degree", "certificate"],
+        "department": ["business-technology"],
+        "credential": "Associate of Applied Science in Cybersecurity / Certificate",
+        "duration": "2 years (AAS) or 1 year (Certificate)",
+        "credits": "64 credits (AAS) / 30 credits (Certificate)",
+        "tuition_estimate": "$6,720 in-district (AAS tuition only)",
+        "start_dates": "Fall (August) and Spring (January)",
+        "career_outcomes": ["Security Analyst", "Network Security Administrator", "Penetration Tester", "Security Operations Center Analyst", "IT Auditor"],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+          "alt": "Cybersecurity student working in a computer lab"
+        }
+      }
+    },
+    {
+      "id": "program-welding",
+      "type": "node.program",
+      "path": "/programs/welding-technology",
+      "values": {
+        "title": "Welding Technology",
+        "body": "<p>The Welding Technology program provides students with comprehensive training in multiple welding processes, preparing them for high-demand careers in manufacturing, construction, pipeline, and fabrication industries. Students gain proficiency in MIG, TIG, Stick, and Flux-Cored welding through hands-on instruction in our modern welding shop.</p><h2>Program Highlights</h2><ul><li>AWS (American Welding Society) accredited testing facility</li><li>12,000 square-foot welding shop with 40 individual welding stations</li><li>Industry-recognized certifications earned during the program</li><li>98% job placement rate within six months of graduation</li><li>Average starting salary of $48,000 in the local market</li></ul><h2>Curriculum Overview</h2><p>The program covers welding metallurgy, blueprint reading, fabrication techniques, welding inspection, and safety. Students progress from basic joint configurations to complex structural and pipe welding, building a portfolio of welding test coupons for certification.</p>",
+        "program_type": ["certificate", "associate-degree"],
+        "department": ["skilled-trades"],
+        "credential": "Certificate in Welding Technology / AAS in Welding Technology",
+        "duration": "9 months (Certificate) or 2 years (AAS)",
+        "credits": "32 credits (Certificate) / 64 credits (AAS)",
+        "tuition_estimate": "$3,360 in-district (Certificate tuition only)",
+        "start_dates": "Fall (August), Spring (January), Summer (June)",
+        "career_outcomes": ["Welder", "Fabricator", "Welding Inspector", "Pipeline Welder", "Manufacturing Technician"],
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+          "alt": "Welding student practicing in the workshop"
+        }
+      }
+    },
+    {
+      "id": "faculty-chen",
+      "type": "node.faculty",
+      "path": "/faculty/dr-linda-chen",
+      "values": {
+        "title": "Dr. Linda Chen",
+        "body": "<p>Dr. Linda Chen is a Professor of Biology and the Health Sciences Department Chair at Lakeview Community College. With over 20 years of teaching experience, she is known for her engaging lectures, innovative use of technology in the classroom, and dedication to student success.</p><p>Dr. Chen's research interests include cellular biology and science pedagogy. She has published numerous articles on effective teaching strategies in community college science education and has received multiple teaching excellence awards. She serves as faculty advisor for the Pre-Health Professions Club.</p>",
+        "position_title": "Professor of Biology & Department Chair",
+        "department": ["health-sciences", "science-mathematics"],
+        "email": "lchen@lakeviewcc.edu",
+        "phone": "(555) 700-2100",
+        "office_location": "Science Building, Room 310",
+        "office_hours": "Mon & Wed 2:00 PM - 4:00 PM, Fri by appointment",
+        "education": ["Ph.D. in Cell Biology, University of Illinois", "M.S. in Biology, Northwestern University", "B.S. in Biochemistry, University of Chicago"],
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+          "alt": "Dr. Linda Chen, Professor of Biology"
+        }
+      }
+    },
+    {
+      "id": "faculty-martinez",
+      "type": "node.faculty",
+      "path": "/faculty/prof-carlos-martinez",
+      "values": {
+        "title": "Professor Carlos Martinez",
+        "body": "<p>Professor Carlos Martinez brings 15 years of industry experience in information security to the Cybersecurity program at Lakeview Community College. Before entering education, he served as Chief Information Security Officer at a Fortune 500 financial services firm, where he built and led a team of 40 security professionals.</p><p>Professor Martinez holds multiple industry certifications including CISSP, CISM, and CEH. He is passionate about preparing the next generation of cybersecurity professionals and regularly invites industry guest speakers to share real-world perspectives with students.</p>",
+        "position_title": "Associate Professor of Cybersecurity",
+        "department": ["business-technology"],
+        "email": "cmartinez@lakeviewcc.edu",
+        "phone": "(555) 700-2200",
+        "office_location": "Technology Center, Room 215",
+        "office_hours": "Tue & Thu 1:00 PM - 3:00 PM, or by appointment",
+        "education": ["M.S. in Information Security, Georgia Tech", "B.S. in Computer Science, University of Texas"],
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "alt": "Professor Carlos Martinez, Cybersecurity Instructor"
+        }
+      }
+    },
+    {
+      "id": "faculty-johnson",
+      "type": "node.faculty",
+      "path": "/faculty/ms-tamika-johnson",
+      "values": {
+        "title": "Ms. Tamika Johnson",
+        "body": "<p>Ms. Tamika Johnson is an Assistant Professor of English and the coordinator of the Developmental Writing program at Lakeview Community College. She specializes in composition, rhetoric, and developmental education, with a particular focus on supporting first-generation college students in building strong writing skills.</p><p>Ms. Johnson developed the college's co-requisite English model, which has doubled the completion rate for developmental writing students. She is a frequent presenter at national conferences on equitable teaching practices and was named the 2025 Faculty Member of the Year by the LCC Faculty Senate.</p>",
+        "position_title": "Assistant Professor of English",
+        "department": ["liberal-arts-humanities"],
+        "email": "tjohnson@lakeviewcc.edu",
+        "phone": "(555) 700-2300",
+        "office_location": "Humanities Building, Room 108",
+        "office_hours": "Mon, Wed, Fri 10:00 AM - 11:30 AM",
+        "education": ["M.F.A. in Creative Writing, Columbia College Chicago", "B.A. in English, Howard University"],
+        "photo": {
+          "uri": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+          "alt": "Ms. Tamika Johnson, English Professor"
+        }
+      }
+    },
+    {
+      "id": "event-open-house",
+      "type": "node.event",
+      "path": "/events/spring-open-house",
+      "values": {
+        "title": "Spring Open House",
+        "body": "<p>Discover everything Lakeview Community College has to offer at our Spring Open House. This free event is designed for prospective students, parents, and community members to explore our campus, meet faculty, and learn about our programs and services.</p><h2>What You Will Experience</h2><ul><li>Campus tours led by current student ambassadors</li><li>Department showcases with hands-on demonstrations</li><li>Financial aid and scholarship information sessions</li><li>Meet with academic advisors and enrollment counselors</li><li>Student club and organization fair</li><li>Complimentary lunch in the campus dining hall</li></ul><p>Pre-registration is encouraged but not required. Attendees who apply during Open House receive a waived application fee.</p>",
+        "event_date": "2026-04-11T09:00:00",
+        "end_date": "2026-04-11T14:00:00",
+        "location": "Lakeview Community College Main Campus",
+        "event_category": ["open-house"],
+        "registration_url": "https://lakeviewcc.edu/open-house",
+        "cost": "Free",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+          "alt": "Students exploring campus during open house event"
+        }
+      }
+    },
+    {
+      "id": "event-career-fair",
+      "type": "node.event",
+      "path": "/events/spring-career-fair",
+      "values": {
+        "title": "Spring Career & Job Fair",
+        "body": "<p>Connect with over 75 local and regional employers at Lakeview Community College's Spring Career and Job Fair. Whether you are looking for full-time employment, part-time work, internships, or apprenticeships, this is your opportunity to make direct connections with hiring managers.</p><h2>Participating Industries</h2><ul><li>Healthcare and allied health</li><li>Information technology and cybersecurity</li><li>Manufacturing and skilled trades</li><li>Business and finance</li><li>Education and human services</li><li>Government and public safety</li></ul><h2>Prepare for Success</h2><p>The Career Center will host resume review sessions and mock interviews the week before the fair. Professional attire is recommended. Bring multiple copies of your resume.</p>",
+        "event_date": "2026-04-22T10:00:00",
+        "end_date": "2026-04-22T14:00:00",
+        "location": "Student Center, Grand Hall",
+        "event_category": ["career-fair"],
+        "registration_url": "https://lakeviewcc.edu/career-fair",
+        "cost": "Free for students and alumni",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80",
+          "alt": "Students networking with employers at career fair"
+        }
+      }
+    },
+    {
+      "id": "event-commencement",
+      "type": "node.event",
+      "path": "/events/commencement-2026",
+      "values": {
+        "title": "Commencement Ceremony 2026",
+        "body": "<p>Join us in celebrating the achievements of the Class of 2026 at Lakeview Community College's annual Commencement Ceremony. This milestone event honors the hard work and dedication of our graduating students as they take the next step in their educational and career journeys.</p><h2>Ceremony Details</h2><ul><li>Doors open at 5:00 PM for guest seating</li><li>Processional begins promptly at 6:00 PM</li><li>Keynote address by alumna Dr. Veronica Reyes, Chief Medical Officer at Springfield Memorial Hospital</li><li>Presentation of degrees and certificates</li><li>Reception for graduates and families following the ceremony</li></ul><h2>For Graduates</h2><p>Cap and gown pick-up is available at the campus bookstore May 5-9 and May 12-14. Graduates must submit their commencement RSVP by April 30. Each graduate receives six guest tickets; additional tickets may be requested after April 15.</p>",
+        "event_date": "2026-05-16T18:00:00",
+        "end_date": "2026-05-16T20:30:00",
+        "location": "Lakeview Athletic Center",
+        "event_category": ["graduation"],
+        "registration_url": "https://lakeviewcc.edu/commencement",
+        "cost": "Free (ticketed event)",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+          "alt": "Graduates celebrating at commencement ceremony"
+        }
+      }
+    },
+    {
+      "id": "news-grant-award",
+      "type": "node.news",
+      "path": "/news/nsf-stem-grant-awarded",
+      "values": {
+        "title": "LCC Receives $1.2 Million NSF Grant for STEM Education",
+        "body": "<p>Lakeview Community College has been awarded a $1.2 million grant from the National Science Foundation to expand STEM education opportunities for underrepresented students. The three-year grant will fund new laboratory equipment, student scholarships, and a mentorship program connecting LCC students with STEM professionals in the community.</p><h2>Grant Initiatives</h2><ul><li>$400,000 for upgraded lab equipment in biology, chemistry, and physics</li><li>$350,000 in scholarships for students from underrepresented groups pursuing STEM degrees</li><li>$250,000 for a STEM Mentorship Program pairing students with industry professionals</li><li>$200,000 for faculty professional development in inclusive teaching practices</li></ul><p>The grant was secured through a proposal led by Dr. Linda Chen, Health Sciences Department Chair, in collaboration with the Science and Mathematics Department. LCC was one of only 25 community colleges nationwide to receive this competitive award.</p>",
+        "news_category": ["campus-news", "press-release"],
+        "publish_date": "2026-02-20T10:00:00",
+        "author": "Office of Communications",
+        "summary": "<p>Lakeview Community College received a $1.2 million NSF grant to expand STEM education for underrepresented students, funding new lab equipment, scholarships, and a mentorship program.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+          "alt": "Students working in a modern science laboratory"
+        }
+      }
+    },
+    {
+      "id": "news-student-success",
+      "type": "node.news",
+      "path": "/news/nursing-graduate-story",
+      "values": {
+        "title": "From Single Mom to Registered Nurse: Maria Santos's LCC Journey",
+        "body": "<p>When Maria Santos enrolled at Lakeview Community College four years ago, she was a single mother of two working part-time as a home health aide. Today, she is a registered nurse at Springfield Memorial Hospital, earning three times her previous salary and building a career she is passionate about.</p><h2>Overcoming Challenges</h2><p>Maria's path was not easy. Balancing coursework, clinical rotations, and parenting required careful planning and support. LCC's childcare center, flexible scheduling, and financial aid office were critical to her success.</p><p>'The nursing faculty at LCC truly cared about me as a person, not just a student,' Maria says. 'When I was struggling, they helped me find resources I did not know existed. I could not have done this without their support.'</p><h2>Advice for Future Students</h2><p>Maria's advice to prospective students: 'Do not let your circumstances define your future. LCC gave me the tools and the confidence to change my life. If I can do it, anyone can.'</p>",
+        "news_category": ["student-success"],
+        "publish_date": "2026-03-01T09:00:00",
+        "author": "Marketing & Communications",
+        "summary": "<p>Maria Santos, a single mother and former home health aide, graduated from LCC's nursing program and is now a registered nurse at Springfield Memorial Hospital.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+          "alt": "Nursing graduate Maria Santos in her scrubs"
+        }
+      }
+    },
+    {
+      "id": "news-esports",
+      "type": "node.news",
+      "path": "/news/esports-team-wins-regional",
+      "values": {
+        "title": "LCC Esports Team Wins Regional Championship",
+        "body": "<p>The Lakeview Community College Esports team captured the Midwest Regional Championship last weekend, defeating eight other colleges in a three-day tournament hosted at the LCC Esports Arena. The team competed in League of Legends, Valorant, and Rocket League, earning first place in two of three titles.</p><h2>Tournament Highlights</h2><ul><li>League of Legends team went undefeated through group play and playoffs</li><li>Valorant squad rallied from a 1-0 deficit to win a dramatic 2-1 finals match</li><li>Five LCC players named to the All-Region team</li><li>Team captain James Park named Tournament MVP</li></ul><p>The Esports program, now in its third year at LCC, has grown from 15 players to over 60 active members. The team will advance to the National Community College Esports Championship in June.</p>",
+        "news_category": ["athletics", "student-success"],
+        "publish_date": "2026-02-28T09:00:00",
+        "author": "Athletics Department",
+        "summary": "<p>The LCC Esports team won the Midwest Regional Championship, taking first place in League of Legends and Valorant, and will advance to the national championship in June.</p>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+          "alt": "Esports team competing in a regional tournament"
+        }
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Lakeview Community College",
+        "body": "<p>Lakeview Community College has served the greater Springfield region since 1965, providing accessible, high-quality education that transforms lives and strengthens communities. As a comprehensive community college, LCC offers associate degrees, certificates, workforce training, and transfer pathways to four-year institutions.</p><h2>Our Mission</h2><p>To provide exceptional, affordable education and training that empowers students to achieve their academic, career, and personal goals while enriching the economic and cultural vitality of our community.</p><h2>By the Numbers</h2><ul><li><strong>12,000+</strong> students enrolled annually across credit and non-credit programs</li><li><strong>85+</strong> degree and certificate programs in high-demand fields</li><li><strong>92%</strong> transfer acceptance rate to four-year institutions</li><li><strong>16:1</strong> student-to-faculty ratio for personalized attention</li><li><strong>$4,200</strong> annual tuition for in-district students (one-third the cost of state universities)</li></ul><h2>Accreditation</h2><p>Lakeview Community College is accredited by the Higher Learning Commission (HLC) and holds specialized accreditations in nursing (ACEN), automotive technology (ASE), and welding (AWS).</p>"
+      }
+    },
+    {
+      "id": "page-admissions",
+      "type": "node.page",
+      "path": "/admissions",
+      "values": {
+        "title": "Admissions & Enrollment",
+        "body": "<h2>Getting Started Is Easy</h2><p>Lakeview Community College maintains an open admissions policy, which means we accept all students who have a high school diploma or GED. There is no minimum GPA or test score required to enroll. Our goal is to meet every student where they are and help them succeed.</p><h2>Steps to Enroll</h2><ul><li><strong>Step 1: Apply Online</strong> - Complete the free online application at lakeviewcc.edu/apply. It takes about 15 minutes.</li><li><strong>Step 2: Submit Transcripts</strong> - Send your high school transcript or GED certificate. College transcripts are needed if you are transferring credits.</li><li><strong>Step 3: Take the Placement Assessment</strong> - Complete the placement test to determine course levels for English and math. Some students may be exempt based on ACT/SAT scores.</li><li><strong>Step 4: Meet with an Advisor</strong> - Schedule an advising appointment to select your program and register for classes.</li><li><strong>Step 5: Complete Financial Aid</strong> - File the FAFSA (school code 001234) to determine eligibility for grants, loans, and scholarships.</li></ul><h2>Important Dates</h2><p>Fall 2026 registration opens April 1. Classes begin August 24. Priority registration deadline is June 1 for the best course selection. Late registration is available through the first week of classes.</p>"
+      }
+    }
+  ]
+}

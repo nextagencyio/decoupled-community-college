@@ -1,0 +1,834 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Lakeview Community College",
+          "path": "/homepage",
+          "heroTitle": "Your Future Starts Here",
+          "heroSubtitle": "Affordable, Accessible, Excellent Education",
+          "heroDescription": {
+            "processed": "<p>Lakeview Community College offers over 85 degree and certificate programs designed to launch your career or transfer to a four-year university. With small class sizes, dedicated faculty, and tuition that is a fraction of university costs, LCC is the smart choice for your education.</p>",
+            "summary": "Lakeview Community College offers over 85 degree and certificate programs designed to launch your career or transfer to a four-year university. With small class sizes, dedicated faculty, and tuition t"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-enrollment",
+              "title": "",
+              "number": "12,000+",
+              "label": "Students Enrolled"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-programs",
+              "title": "",
+              "number": "85+",
+              "label": "Degree & Certificate Programs"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-transfer",
+              "title": "",
+              "number": "92%",
+              "label": "Transfer Acceptance Rate"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-tuition",
+              "title": "",
+              "number": "$4,200",
+              "label": "Annual Tuition (In-District)"
+            }
+          ],
+          "featuredItemsTitle": "Explore Our Programs",
+          "ctaTitle": "Apply Today",
+          "ctaDescription": {
+            "processed": "<p>Whether you are a recent high school graduate, a working adult looking to advance your career, or returning to education after time away, Lakeview Community College has a path for you. Apply in minutes with our streamlined online application.</p>",
+            "summary": "Whether you are a recent high school graduate, a working adult looking to advance your career, or returning to education after time away, Lakeview Community College has a path for you. Apply in minute"
+          },
+          "ctaPrimary": "Apply Now",
+          "ctaSecondary": "Schedule a Visit"
+        }
+      }
+    }
+  },
+  "/programs/registered-nursing": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-nursing",
+          "title": "Registered Nursing (ADN)",
+          "path": "/programs/registered-nursing",
+          "body": {
+            "processed": "<p>The Associate Degree in Nursing (ADN) program at Lakeview Community College prepares students to become registered nurses ready to provide compassionate, evidence-based patient care in hospitals, clinics, long-term care facilities, and community health settings.</p><h2>Program Highlights</h2><ul><li>Accredited by the Accreditation Commission for Education in Nursing (ACEN)</li><li>State-of-the-art simulation lab with high-fidelity patient simulators</li><li>Clinical rotations at six partnering healthcare facilities</li><li>95% NCLEX-RN first-time pass rate (above national average)</li><li>Pathway agreements with four-year BSN programs for seamless transfer</li></ul><h2>Curriculum Overview</h2><p>The program spans four semesters of nursing courses plus prerequisites. Students gain hands-on experience through over 600 hours of supervised clinical practice. Coursework covers fundamentals of nursing, pharmacology, medical-surgical nursing, pediatrics, obstetrics, and mental health nursing.</p>",
+            "summary": "The Associate Degree in Nursing (ADN) program at Lakeview Community College prepares students to become registered nurses ready to provide compassionate, evidence-based patient care in hospitals, clin"
+          },
+          "programType": [
+            {
+              "id": "associate-degree",
+              "name": "associate-degree"
+            }
+          ],
+          "department": [
+            {
+              "id": "health-sciences",
+              "name": "health-sciences"
+            }
+          ],
+          "credential": "Associate Degree in Nursing (ADN)",
+          "duration": "2 years (4 semesters plus prerequisites)",
+          "credits": "72 credits",
+          "tuitionEstimate": "$8,400 in-district (tuition only)",
+          "startDates": "Fall semester (August)",
+          "careerOutcomes": [
+            "Registered Nurse",
+            "Hospital Staff Nurse",
+            "Clinic Nurse",
+            "Home Health Nurse",
+            "Long-Term Care Nurse"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Nursing student practicing clinical skills in simulation lab",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/cybersecurity": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-cybersecurity",
+          "title": "Cybersecurity",
+          "path": "/programs/cybersecurity",
+          "body": {
+            "processed": "<p>The Cybersecurity program at Lakeview Community College equips students with the technical skills and knowledge needed to protect organizations from cyber threats. With cybersecurity jobs projected to grow 35% over the next decade, graduates enter one of the most in-demand fields in technology.</p><h2>Program Highlights</h2><ul><li>Hands-on labs using industry-standard tools (Wireshark, Kali Linux, Splunk)</li><li>Preparation for CompTIA Security+, CySA+, and CISSP certifications</li><li>Dedicated cyber range for attack simulation and defense practice</li><li>Industry advisory board ensures curriculum matches employer needs</li><li>Internship placement assistance with local employers</li></ul><h2>Curriculum Overview</h2><p>Students study network security, ethical hacking, digital forensics, risk management, and security operations. The program includes both theoretical foundations and extensive practical labs that simulate real-world cybersecurity scenarios.</p>",
+            "summary": "The Cybersecurity program at Lakeview Community College equips students with the technical skills and knowledge needed to protect organizations from cyber threats. With cybersecurity jobs projected to"
+          },
+          "programType": [
+            {
+              "id": "associate-degree",
+              "name": "associate-degree"
+            },
+            {
+              "id": "certificate",
+              "name": "certificate"
+            }
+          ],
+          "department": [
+            {
+              "id": "business-technology",
+              "name": "business-technology"
+            }
+          ],
+          "credential": "Associate of Applied Science in Cybersecurity / Certificate",
+          "duration": "2 years (AAS) or 1 year (Certificate)",
+          "credits": "64 credits (AAS) / 30 credits (Certificate)",
+          "tuitionEstimate": "$6,720 in-district (AAS tuition only)",
+          "startDates": "Fall (August) and Spring (January)",
+          "careerOutcomes": [
+            "Security Analyst",
+            "Network Security Administrator",
+            "Penetration Tester",
+            "Security Operations Center Analyst",
+            "IT Auditor"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+            "alt": "Cybersecurity student working in a computer lab",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/programs/welding-technology": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeProgram",
+          "id": "program-welding",
+          "title": "Welding Technology",
+          "path": "/programs/welding-technology",
+          "body": {
+            "processed": "<p>The Welding Technology program provides students with comprehensive training in multiple welding processes, preparing them for high-demand careers in manufacturing, construction, pipeline, and fabrication industries. Students gain proficiency in MIG, TIG, Stick, and Flux-Cored welding through hands-on instruction in our modern welding shop.</p><h2>Program Highlights</h2><ul><li>AWS (American Welding Society) accredited testing facility</li><li>12,000 square-foot welding shop with 40 individual welding stations</li><li>Industry-recognized certifications earned during the program</li><li>98% job placement rate within six months of graduation</li><li>Average starting salary of $48,000 in the local market</li></ul><h2>Curriculum Overview</h2><p>The program covers welding metallurgy, blueprint reading, fabrication techniques, welding inspection, and safety. Students progress from basic joint configurations to complex structural and pipe welding, building a portfolio of welding test coupons for certification.</p>",
+            "summary": "The Welding Technology program provides students with comprehensive training in multiple welding processes, preparing them for high-demand careers in manufacturing, construction, pipeline, and fabrica"
+          },
+          "programType": [
+            {
+              "id": "certificate",
+              "name": "certificate"
+            },
+            {
+              "id": "associate-degree",
+              "name": "associate-degree"
+            }
+          ],
+          "department": [
+            {
+              "id": "skilled-trades",
+              "name": "skilled-trades"
+            }
+          ],
+          "credential": "Certificate in Welding Technology / AAS in Welding Technology",
+          "duration": "9 months (Certificate) or 2 years (AAS)",
+          "credits": "32 credits (Certificate) / 64 credits (AAS)",
+          "tuitionEstimate": "$3,360 in-district (Certificate tuition only)",
+          "startDates": "Fall (August), Spring (January), Summer (June)",
+          "careerOutcomes": [
+            "Welder",
+            "Fabricator",
+            "Welding Inspector",
+            "Pipeline Welder",
+            "Manufacturing Technician"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+            "alt": "Welding student practicing in the workshop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/faculty/dr-linda-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFaculty",
+          "id": "faculty-chen",
+          "title": "Dr. Linda Chen",
+          "path": "/faculty/dr-linda-chen",
+          "body": {
+            "processed": "<p>Dr. Linda Chen is a Professor of Biology and the Health Sciences Department Chair at Lakeview Community College. With over 20 years of teaching experience, she is known for her engaging lectures, innovative use of technology in the classroom, and dedication to student success.</p><p>Dr. Chen's research interests include cellular biology and science pedagogy. She has published numerous articles on effective teaching strategies in community college science education and has received multiple teaching excellence awards. She serves as faculty advisor for the Pre-Health Professions Club.</p>",
+            "summary": "Dr. Linda Chen is a Professor of Biology and the Health Sciences Department Chair at Lakeview Community College. With over 20 years of teaching experience, she is known for her engaging lectures, inno"
+          },
+          "positionTitle": "Professor of Biology & Department Chair",
+          "department": [
+            {
+              "id": "health-sciences",
+              "name": "health-sciences"
+            },
+            {
+              "id": "science-mathematics",
+              "name": "science-mathematics"
+            }
+          ],
+          "email": "lchen@lakeviewcc.edu",
+          "phone": "(555) 700-2100",
+          "officeLocation": "Science Building, Room 310",
+          "officeHours": "Mon & Wed 2:00 PM - 4:00 PM, Fri by appointment",
+          "education": [
+            "Ph.D. in Cell Biology, University of Illinois",
+            "M.S. in Biology, Northwestern University",
+            "B.S. in Biochemistry, University of Chicago"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Dr. Linda Chen, Professor of Biology",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/faculty/prof-carlos-martinez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFaculty",
+          "id": "faculty-martinez",
+          "title": "Professor Carlos Martinez",
+          "path": "/faculty/prof-carlos-martinez",
+          "body": {
+            "processed": "<p>Professor Carlos Martinez brings 15 years of industry experience in information security to the Cybersecurity program at Lakeview Community College. Before entering education, he served as Chief Information Security Officer at a Fortune 500 financial services firm, where he built and led a team of 40 security professionals.</p><p>Professor Martinez holds multiple industry certifications including CISSP, CISM, and CEH. He is passionate about preparing the next generation of cybersecurity professionals and regularly invites industry guest speakers to share real-world perspectives with students.</p>",
+            "summary": "Professor Carlos Martinez brings 15 years of industry experience in information security to the Cybersecurity program at Lakeview Community College. Before entering education, he served as Chief Infor"
+          },
+          "positionTitle": "Associate Professor of Cybersecurity",
+          "department": [
+            {
+              "id": "business-technology",
+              "name": "business-technology"
+            }
+          ],
+          "email": "cmartinez@lakeviewcc.edu",
+          "phone": "(555) 700-2200",
+          "officeLocation": "Technology Center, Room 215",
+          "officeHours": "Tue & Thu 1:00 PM - 3:00 PM, or by appointment",
+          "education": [
+            "M.S. in Information Security, Georgia Tech",
+            "B.S. in Computer Science, University of Texas"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Professor Carlos Martinez, Cybersecurity Instructor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/faculty/ms-tamika-johnson": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeFaculty",
+          "id": "faculty-johnson",
+          "title": "Ms. Tamika Johnson",
+          "path": "/faculty/ms-tamika-johnson",
+          "body": {
+            "processed": "<p>Ms. Tamika Johnson is an Assistant Professor of English and the coordinator of the Developmental Writing program at Lakeview Community College. She specializes in composition, rhetoric, and developmental education, with a particular focus on supporting first-generation college students in building strong writing skills.</p><p>Ms. Johnson developed the college's co-requisite English model, which has doubled the completion rate for developmental writing students. She is a frequent presenter at national conferences on equitable teaching practices and was named the 2025 Faculty Member of the Year by the LCC Faculty Senate.</p>",
+            "summary": "Ms. Tamika Johnson is an Assistant Professor of English and the coordinator of the Developmental Writing program at Lakeview Community College. She specializes in composition, rhetoric, and developmen"
+          },
+          "positionTitle": "Assistant Professor of English",
+          "department": [
+            {
+              "id": "liberal-arts-humanities",
+              "name": "liberal-arts-humanities"
+            }
+          ],
+          "email": "tjohnson@lakeviewcc.edu",
+          "phone": "(555) 700-2300",
+          "officeLocation": "Humanities Building, Room 108",
+          "officeHours": "Mon, Wed, Fri 10:00 AM - 11:30 AM",
+          "education": [
+            "M.F.A. in Creative Writing, Columbia College Chicago",
+            "B.A. in English, Howard University"
+          ],
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Ms. Tamika Johnson, English Professor",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/spring-open-house": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-open-house",
+          "title": "Spring Open House",
+          "path": "/events/spring-open-house",
+          "body": {
+            "processed": "<p>Discover everything Lakeview Community College has to offer at our Spring Open House. This free event is designed for prospective students, parents, and community members to explore our campus, meet faculty, and learn about our programs and services.</p><h2>What You Will Experience</h2><ul><li>Campus tours led by current student ambassadors</li><li>Department showcases with hands-on demonstrations</li><li>Financial aid and scholarship information sessions</li><li>Meet with academic advisors and enrollment counselors</li><li>Student club and organization fair</li><li>Complimentary lunch in the campus dining hall</li></ul><p>Pre-registration is encouraged but not required. Attendees who apply during Open House receive a waived application fee.</p>",
+            "summary": "Discover everything Lakeview Community College has to offer at our Spring Open House. This free event is designed for prospective students, parents, and community members to explore our campus, meet f"
+          },
+          "eventDate": {
+            "timestamp": 1775916000
+          },
+          "endDate": {
+            "timestamp": 1775934000
+          },
+          "location": "Lakeview Community College Main Campus",
+          "eventCategory": [
+            {
+              "id": "open-house",
+              "name": "open-house"
+            }
+          ],
+          "registrationUrl": "https://lakeviewcc.edu/open-house",
+          "cost": "Free",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+            "alt": "Students exploring campus during open house event",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1562774053-701939374585?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/spring-career-fair": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-career-fair",
+          "title": "Spring Career & Job Fair",
+          "path": "/events/spring-career-fair",
+          "body": {
+            "processed": "<p>Connect with over 75 local and regional employers at Lakeview Community College's Spring Career and Job Fair. Whether you are looking for full-time employment, part-time work, internships, or apprenticeships, this is your opportunity to make direct connections with hiring managers.</p><h2>Participating Industries</h2><ul><li>Healthcare and allied health</li><li>Information technology and cybersecurity</li><li>Manufacturing and skilled trades</li><li>Business and finance</li><li>Education and human services</li><li>Government and public safety</li></ul><h2>Prepare for Success</h2><p>The Career Center will host resume review sessions and mock interviews the week before the fair. Professional attire is recommended. Bring multiple copies of your resume.</p>",
+            "summary": "Connect with over 75 local and regional employers at Lakeview Community College's Spring Career and Job Fair. Whether you are looking for full-time employment, part-time work, internships, or apprenti"
+          },
+          "eventDate": {
+            "timestamp": 1776870000
+          },
+          "endDate": {
+            "timestamp": 1776884400
+          },
+          "location": "Student Center, Grand Hall",
+          "eventCategory": [
+            {
+              "id": "career-fair",
+              "name": "career-fair"
+            }
+          ],
+          "registrationUrl": "https://lakeviewcc.edu/career-fair",
+          "cost": "Free for students and alumni",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80",
+            "alt": "Students networking with employers at career fair",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/events/commencement-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeEvent",
+          "id": "event-commencement",
+          "title": "Commencement Ceremony 2026",
+          "path": "/events/commencement-2026",
+          "body": {
+            "processed": "<p>Join us in celebrating the achievements of the Class of 2026 at Lakeview Community College's annual Commencement Ceremony. This milestone event honors the hard work and dedication of our graduating students as they take the next step in their educational and career journeys.</p><h2>Ceremony Details</h2><ul><li>Doors open at 5:00 PM for guest seating</li><li>Processional begins promptly at 6:00 PM</li><li>Keynote address by alumna Dr. Veronica Reyes, Chief Medical Officer at Springfield Memorial Hospital</li><li>Presentation of degrees and certificates</li><li>Reception for graduates and families following the ceremony</li></ul><h2>For Graduates</h2><p>Cap and gown pick-up is available at the campus bookstore May 5-9 and May 12-14. Graduates must submit their commencement RSVP by April 30. Each graduate receives six guest tickets; additional tickets may be requested after April 15.</p>",
+            "summary": "Join us in celebrating the achievements of the Class of 2026 at Lakeview Community College's annual Commencement Ceremony. This milestone event honors the hard work and dedication of our graduating st"
+          },
+          "eventDate": {
+            "timestamp": 1778972400
+          },
+          "endDate": {
+            "timestamp": 1778981400
+          },
+          "location": "Lakeview Athletic Center",
+          "eventCategory": [
+            {
+              "id": "graduation",
+              "name": "graduation"
+            }
+          ],
+          "registrationUrl": "https://lakeviewcc.edu/commencement",
+          "cost": "Free (ticketed event)",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Graduates celebrating at commencement ceremony",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/nsf-stem-grant-awarded": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-grant-award",
+          "title": "LCC Receives $1.2 Million NSF Grant for STEM Education",
+          "path": "/news/nsf-stem-grant-awarded",
+          "body": {
+            "processed": "<p>Lakeview Community College has been awarded a $1.2 million grant from the National Science Foundation to expand STEM education opportunities for underrepresented students. The three-year grant will fund new laboratory equipment, student scholarships, and a mentorship program connecting LCC students with STEM professionals in the community.</p><h2>Grant Initiatives</h2><ul><li>$400,000 for upgraded lab equipment in biology, chemistry, and physics</li><li>$350,000 in scholarships for students from underrepresented groups pursuing STEM degrees</li><li>$250,000 for a STEM Mentorship Program pairing students with industry professionals</li><li>$200,000 for faculty professional development in inclusive teaching practices</li></ul><p>The grant was secured through a proposal led by Dr. Linda Chen, Health Sciences Department Chair, in collaboration with the Science and Mathematics Department. LCC was one of only 25 community colleges nationwide to receive this competitive award.</p>",
+            "summary": "Lakeview Community College has been awarded a $1.2 million grant from the National Science Foundation to expand STEM education opportunities for underrepresented students. The three-year grant will fu"
+          },
+          "newsCategory": [
+            {
+              "id": "campus-news",
+              "name": "campus-news"
+            },
+            {
+              "id": "press-release",
+              "name": "press-release"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1771603200
+          },
+          "author": "Office of Communications",
+          "summary": {
+            "processed": "<p>Lakeview Community College received a $1.2 million NSF grant to expand STEM education for underrepresented students, funding new lab equipment, scholarships, and a mentorship program.</p>",
+            "summary": "Lakeview Community College received a $1.2 million NSF grant to expand STEM education for underrepresented students, funding new lab equipment, scholarships, and a mentorship program."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+            "alt": "Students working in a modern science laboratory",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/nursing-graduate-story": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-student-success",
+          "title": "From Single Mom to Registered Nurse: Maria Santos's LCC Journey",
+          "path": "/news/nursing-graduate-story",
+          "body": {
+            "processed": "<p>When Maria Santos enrolled at Lakeview Community College four years ago, she was a single mother of two working part-time as a home health aide. Today, she is a registered nurse at Springfield Memorial Hospital, earning three times her previous salary and building a career she is passionate about.</p><h2>Overcoming Challenges</h2><p>Maria's path was not easy. Balancing coursework, clinical rotations, and parenting required careful planning and support. LCC's childcare center, flexible scheduling, and financial aid office were critical to her success.</p><p>'The nursing faculty at LCC truly cared about me as a person, not just a student,' Maria says. 'When I was struggling, they helped me find resources I did not know existed. I could not have done this without their support.'</p><h2>Advice for Future Students</h2><p>Maria's advice to prospective students: 'Do not let your circumstances define your future. LCC gave me the tools and the confidence to change my life. If I can do it, anyone can.'</p>",
+            "summary": "When Maria Santos enrolled at Lakeview Community College four years ago, she was a single mother of two working part-time as a home health aide. Today, she is a registered nurse at Springfield Memoria"
+          },
+          "newsCategory": [
+            {
+              "id": "student-success",
+              "name": "student-success"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1772377200
+          },
+          "author": "Marketing & Communications",
+          "summary": {
+            "processed": "<p>Maria Santos, a single mother and former home health aide, graduated from LCC's nursing program and is now a registered nurse at Springfield Memorial Hospital.</p>",
+            "summary": "Maria Santos, a single mother and former home health aide, graduated from LCC's nursing program and is now a registered nurse at Springfield Memorial Hospital."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+            "alt": "Nursing graduate Maria Santos in her scrubs",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/esports-team-wins-regional": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-esports",
+          "title": "LCC Esports Team Wins Regional Championship",
+          "path": "/news/esports-team-wins-regional",
+          "body": {
+            "processed": "<p>The Lakeview Community College Esports team captured the Midwest Regional Championship last weekend, defeating eight other colleges in a three-day tournament hosted at the LCC Esports Arena. The team competed in League of Legends, Valorant, and Rocket League, earning first place in two of three titles.</p><h2>Tournament Highlights</h2><ul><li>League of Legends team went undefeated through group play and playoffs</li><li>Valorant squad rallied from a 1-0 deficit to win a dramatic 2-1 finals match</li><li>Five LCC players named to the All-Region team</li><li>Team captain James Park named Tournament MVP</li></ul><p>The Esports program, now in its third year at LCC, has grown from 15 players to over 60 active members. The team will advance to the National Community College Esports Championship in June.</p>",
+            "summary": "The Lakeview Community College Esports team captured the Midwest Regional Championship last weekend, defeating eight other colleges in a three-day tournament hosted at the LCC Esports Arena. The team "
+          },
+          "newsCategory": [
+            {
+              "id": "athletics",
+              "name": "athletics"
+            },
+            {
+              "id": "student-success",
+              "name": "student-success"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1772290800
+          },
+          "author": "Athletics Department",
+          "summary": {
+            "processed": "<p>The LCC Esports team won the Midwest Regional Championship, taking first place in League of Legends and Valorant, and will advance to the national championship in June.</p>",
+            "summary": "The LCC Esports team won the Midwest Regional Championship, taking first place in League of Legends and Valorant, and will advance to the national championship in June."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+            "alt": "Esports team competing in a regional tournament",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Lakeview Community College",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Lakeview Community College has served the greater Springfield region since 1965, providing accessible, high-quality education that transforms lives and strengthens communities. As a comprehensive community college, LCC offers associate degrees, certificates, workforce training, and transfer pathways to four-year institutions.</p><h2>Our Mission</h2><p>To provide exceptional, affordable education and training that empowers students to achieve their academic, career, and personal goals while enriching the economic and cultural vitality of our community.</p><h2>By the Numbers</h2><ul><li><strong>12,000+</strong> students enrolled annually across credit and non-credit programs</li><li><strong>85+</strong> degree and certificate programs in high-demand fields</li><li><strong>92%</strong> transfer acceptance rate to four-year institutions</li><li><strong>16:1</strong> student-to-faculty ratio for personalized attention</li><li><strong>$4,200</strong> annual tuition for in-district students (one-third the cost of state universities)</li></ul><h2>Accreditation</h2><p>Lakeview Community College is accredited by the Higher Learning Commission (HLC) and holds specialized accreditations in nursing (ACEN), automotive technology (ASE), and welding (AWS).</p>",
+            "summary": "Lakeview Community College has served the greater Springfield region since 1965, providing accessible, high-quality education that transforms lives and strengthens communities. As a comprehensive comm"
+          }
+        }
+      }
+    }
+  },
+  "/admissions": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-admissions",
+          "title": "Admissions & Enrollment",
+          "path": "/admissions",
+          "body": {
+            "processed": "<h2>Getting Started Is Easy</h2><p>Lakeview Community College maintains an open admissions policy, which means we accept all students who have a high school diploma or GED. There is no minimum GPA or test score required to enroll. Our goal is to meet every student where they are and help them succeed.</p><h2>Steps to Enroll</h2><ul><li><strong>Step 1: Apply Online</strong> - Complete the free online application at lakeviewcc.edu/apply. It takes about 15 minutes.</li><li><strong>Step 2: Submit Transcripts</strong> - Send your high school transcript or GED certificate. College transcripts are needed if you are transferring credits.</li><li><strong>Step 3: Take the Placement Assessment</strong> - Complete the placement test to determine course levels for English and math. Some students may be exempt based on ACT/SAT scores.</li><li><strong>Step 4: Meet with an Advisor</strong> - Schedule an advising appointment to select your program and register for classes.</li><li><strong>Step 5: Complete Financial Aid</strong> - File the FAFSA (school code 001234) to determine eligibility for grants, loans, and scholarships.</li></ul><h2>Important Dates</h2><p>Fall 2026 registration opens April 1. Classes begin August 24. Priority registration deadline is June 1 for the best course selection. Late registration is available through the first week of classes.</p>",
+            "summary": "Getting Started Is EasyLakeview Community College maintains an open admissions policy, which means we accept all students who have a high school diploma or GED. There is no minimum GPA or test score r"
+          }
+        }
+      }
+    }
+  }
+}

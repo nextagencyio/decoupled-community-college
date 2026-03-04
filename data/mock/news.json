@@ -1,0 +1,167 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-grant-award",
+          "title": "LCC Receives $1.2 Million NSF Grant for STEM Education",
+          "path": "/news/nsf-stem-grant-awarded",
+          "body": {
+            "processed": "<p>Lakeview Community College has been awarded a $1.2 million grant from the National Science Foundation to expand STEM education opportunities for underrepresented students. The three-year grant will fund new laboratory equipment, student scholarships, and a mentorship program connecting LCC students with STEM professionals in the community.</p><h2>Grant Initiatives</h2><ul><li>$400,000 for upgraded lab equipment in biology, chemistry, and physics</li><li>$350,000 in scholarships for students from underrepresented groups pursuing STEM degrees</li><li>$250,000 for a STEM Mentorship Program pairing students with industry professionals</li><li>$200,000 for faculty professional development in inclusive teaching practices</li></ul><p>The grant was secured through a proposal led by Dr. Linda Chen, Health Sciences Department Chair, in collaboration with the Science and Mathematics Department. LCC was one of only 25 community colleges nationwide to receive this competitive award.</p>",
+            "summary": "Lakeview Community College has been awarded a $1.2 million grant from the National Science Foundation to expand STEM education opportunities for underrepresented students. The three-year grant will fu"
+          },
+          "newsCategory": [
+            {
+              "id": "campus-news",
+              "name": "campus-news"
+            },
+            {
+              "id": "press-release",
+              "name": "press-release"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1771603200
+          },
+          "author": "Office of Communications",
+          "summary": {
+            "processed": "<p>Lakeview Community College received a $1.2 million NSF grant to expand STEM education for underrepresented students, funding new lab equipment, scholarships, and a mentorship program.</p>",
+            "summary": "Lakeview Community College received a $1.2 million NSF grant to expand STEM education for underrepresented students, funding new lab equipment, scholarships, and a mentorship program."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+            "alt": "Students working in a modern science laboratory",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-student-success",
+          "title": "From Single Mom to Registered Nurse: Maria Santos's LCC Journey",
+          "path": "/news/nursing-graduate-story",
+          "body": {
+            "processed": "<p>When Maria Santos enrolled at Lakeview Community College four years ago, she was a single mother of two working part-time as a home health aide. Today, she is a registered nurse at Springfield Memorial Hospital, earning three times her previous salary and building a career she is passionate about.</p><h2>Overcoming Challenges</h2><p>Maria's path was not easy. Balancing coursework, clinical rotations, and parenting required careful planning and support. LCC's childcare center, flexible scheduling, and financial aid office were critical to her success.</p><p>'The nursing faculty at LCC truly cared about me as a person, not just a student,' Maria says. 'When I was struggling, they helped me find resources I did not know existed. I could not have done this without their support.'</p><h2>Advice for Future Students</h2><p>Maria's advice to prospective students: 'Do not let your circumstances define your future. LCC gave me the tools and the confidence to change my life. If I can do it, anyone can.'</p>",
+            "summary": "When Maria Santos enrolled at Lakeview Community College four years ago, she was a single mother of two working part-time as a home health aide. Today, she is a registered nurse at Springfield Memoria"
+          },
+          "newsCategory": [
+            {
+              "id": "student-success",
+              "name": "student-success"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1772377200
+          },
+          "author": "Marketing & Communications",
+          "summary": {
+            "processed": "<p>Maria Santos, a single mother and former home health aide, graduated from LCC's nursing program and is now a registered nurse at Springfield Memorial Hospital.</p>",
+            "summary": "Maria Santos, a single mother and former home health aide, graduated from LCC's nursing program and is now a registered nurse at Springfield Memorial Hospital."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+            "alt": "Nursing graduate Maria Santos in her scrubs",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-esports",
+          "title": "LCC Esports Team Wins Regional Championship",
+          "path": "/news/esports-team-wins-regional",
+          "body": {
+            "processed": "<p>The Lakeview Community College Esports team captured the Midwest Regional Championship last weekend, defeating eight other colleges in a three-day tournament hosted at the LCC Esports Arena. The team competed in League of Legends, Valorant, and Rocket League, earning first place in two of three titles.</p><h2>Tournament Highlights</h2><ul><li>League of Legends team went undefeated through group play and playoffs</li><li>Valorant squad rallied from a 1-0 deficit to win a dramatic 2-1 finals match</li><li>Five LCC players named to the All-Region team</li><li>Team captain James Park named Tournament MVP</li></ul><p>The Esports program, now in its third year at LCC, has grown from 15 players to over 60 active members. The team will advance to the National Community College Esports Championship in June.</p>",
+            "summary": "The Lakeview Community College Esports team captured the Midwest Regional Championship last weekend, defeating eight other colleges in a three-day tournament hosted at the LCC Esports Arena. The team "
+          },
+          "newsCategory": [
+            {
+              "id": "athletics",
+              "name": "athletics"
+            },
+            {
+              "id": "student-success",
+              "name": "student-success"
+            }
+          ],
+          "publishDate": {
+            "timestamp": 1772290800
+          },
+          "author": "Athletics Department",
+          "summary": {
+            "processed": "<p>The LCC Esports team won the Midwest Regional Championship, taking first place in League of Legends and Valorant, and will advance to the national championship in June.</p>",
+            "summary": "The LCC Esports team won the Midwest Regional Championship, taking first place in League of Legends and Valorant, and will advance to the national championship in June."
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+            "alt": "Esports team competing in a regional tournament",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

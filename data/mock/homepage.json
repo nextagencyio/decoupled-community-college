@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Lakeview Community College",
+          "path": "/homepage",
+          "heroTitle": "Your Future Starts Here",
+          "heroSubtitle": "Affordable, Accessible, Excellent Education",
+          "heroDescription": {
+            "processed": "<p>Lakeview Community College offers over 85 degree and certificate programs designed to launch your career or transfer to a four-year university. With small class sizes, dedicated faculty, and tuition that is a fraction of university costs, LCC is the smart choice for your education.</p>",
+            "summary": "Lakeview Community College offers over 85 degree and certificate programs designed to launch your career or transfer to a four-year university. With small class sizes, dedicated faculty, and tuition t"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-enrollment",
+              "title": "",
+              "number": "12,000+",
+              "label": "Students Enrolled"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-programs",
+              "title": "",
+              "number": "85+",
+              "label": "Degree & Certificate Programs"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-transfer",
+              "title": "",
+              "number": "92%",
+              "label": "Transfer Acceptance Rate"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-tuition",
+              "title": "",
+              "number": "$4,200",
+              "label": "Annual Tuition (In-District)"
+            }
+          ],
+          "featuredItemsTitle": "Explore Our Programs",
+          "ctaTitle": "Apply Today",
+          "ctaDescription": {
+            "processed": "<p>Whether you are a recent high school graduate, a working adult looking to advance your career, or returning to education after time away, Lakeview Community College has a path for you. Apply in minutes with our streamlined online application.</p>",
+            "summary": "Whether you are a recent high school graduate, a working adult looking to advance your career, or returning to education after time away, Lakeview Community College has a path for you. Apply in minute"
+          },
+          "ctaPrimary": "Apply Now",
+          "ctaSecondary": "Schedule a Visit"
+        }
+      ]
+    }
+  }
+}

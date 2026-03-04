@@ -1,0 +1,197 @@
+{
+  "data": {
+    "nodePrograms": {
+      "__typename": "NodeProgramConnection",
+      "nodes": [
+        {
+          "__typename": "NodeProgram",
+          "id": "program-nursing",
+          "title": "Registered Nursing (ADN)",
+          "path": "/programs/registered-nursing",
+          "body": {
+            "processed": "<p>The Associate Degree in Nursing (ADN) program at Lakeview Community College prepares students to become registered nurses ready to provide compassionate, evidence-based patient care in hospitals, clinics, long-term care facilities, and community health settings.</p><h2>Program Highlights</h2><ul><li>Accredited by the Accreditation Commission for Education in Nursing (ACEN)</li><li>State-of-the-art simulation lab with high-fidelity patient simulators</li><li>Clinical rotations at six partnering healthcare facilities</li><li>95% NCLEX-RN first-time pass rate (above national average)</li><li>Pathway agreements with four-year BSN programs for seamless transfer</li></ul><h2>Curriculum Overview</h2><p>The program spans four semesters of nursing courses plus prerequisites. Students gain hands-on experience through over 600 hours of supervised clinical practice. Coursework covers fundamentals of nursing, pharmacology, medical-surgical nursing, pediatrics, obstetrics, and mental health nursing.</p>",
+            "summary": "The Associate Degree in Nursing (ADN) program at Lakeview Community College prepares students to become registered nurses ready to provide compassionate, evidence-based patient care in hospitals, clin"
+          },
+          "programType": [
+            {
+              "id": "associate-degree",
+              "name": "associate-degree"
+            }
+          ],
+          "department": [
+            {
+              "id": "health-sciences",
+              "name": "health-sciences"
+            }
+          ],
+          "credential": "Associate Degree in Nursing (ADN)",
+          "duration": "2 years (4 semesters plus prerequisites)",
+          "credits": "72 credits",
+          "tuitionEstimate": "$8,400 in-district (tuition only)",
+          "startDates": "Fall semester (August)",
+          "careerOutcomes": [
+            "Registered Nurse",
+            "Hospital Staff Nurse",
+            "Clinic Nurse",
+            "Home Health Nurse",
+            "Long-Term Care Nurse"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+            "alt": "Nursing student practicing clinical skills in simulation lab",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-cybersecurity",
+          "title": "Cybersecurity",
+          "path": "/programs/cybersecurity",
+          "body": {
+            "processed": "<p>The Cybersecurity program at Lakeview Community College equips students with the technical skills and knowledge needed to protect organizations from cyber threats. With cybersecurity jobs projected to grow 35% over the next decade, graduates enter one of the most in-demand fields in technology.</p><h2>Program Highlights</h2><ul><li>Hands-on labs using industry-standard tools (Wireshark, Kali Linux, Splunk)</li><li>Preparation for CompTIA Security+, CySA+, and CISSP certifications</li><li>Dedicated cyber range for attack simulation and defense practice</li><li>Industry advisory board ensures curriculum matches employer needs</li><li>Internship placement assistance with local employers</li></ul><h2>Curriculum Overview</h2><p>Students study network security, ethical hacking, digital forensics, risk management, and security operations. The program includes both theoretical foundations and extensive practical labs that simulate real-world cybersecurity scenarios.</p>",
+            "summary": "The Cybersecurity program at Lakeview Community College equips students with the technical skills and knowledge needed to protect organizations from cyber threats. With cybersecurity jobs projected to"
+          },
+          "programType": [
+            {
+              "id": "associate-degree",
+              "name": "associate-degree"
+            },
+            {
+              "id": "certificate",
+              "name": "certificate"
+            }
+          ],
+          "department": [
+            {
+              "id": "business-technology",
+              "name": "business-technology"
+            }
+          ],
+          "credential": "Associate of Applied Science in Cybersecurity / Certificate",
+          "duration": "2 years (AAS) or 1 year (Certificate)",
+          "credits": "64 credits (AAS) / 30 credits (Certificate)",
+          "tuitionEstimate": "$6,720 in-district (AAS tuition only)",
+          "startDates": "Fall (August) and Spring (January)",
+          "careerOutcomes": [
+            "Security Analyst",
+            "Network Security Administrator",
+            "Penetration Tester",
+            "Security Operations Center Analyst",
+            "IT Auditor"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+            "alt": "Cybersecurity student working in a computer lab",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeProgram",
+          "id": "program-welding",
+          "title": "Welding Technology",
+          "path": "/programs/welding-technology",
+          "body": {
+            "processed": "<p>The Welding Technology program provides students with comprehensive training in multiple welding processes, preparing them for high-demand careers in manufacturing, construction, pipeline, and fabrication industries. Students gain proficiency in MIG, TIG, Stick, and Flux-Cored welding through hands-on instruction in our modern welding shop.</p><h2>Program Highlights</h2><ul><li>AWS (American Welding Society) accredited testing facility</li><li>12,000 square-foot welding shop with 40 individual welding stations</li><li>Industry-recognized certifications earned during the program</li><li>98% job placement rate within six months of graduation</li><li>Average starting salary of $48,000 in the local market</li></ul><h2>Curriculum Overview</h2><p>The program covers welding metallurgy, blueprint reading, fabrication techniques, welding inspection, and safety. Students progress from basic joint configurations to complex structural and pipe welding, building a portfolio of welding test coupons for certification.</p>",
+            "summary": "The Welding Technology program provides students with comprehensive training in multiple welding processes, preparing them for high-demand careers in manufacturing, construction, pipeline, and fabrica"
+          },
+          "programType": [
+            {
+              "id": "certificate",
+              "name": "certificate"
+            },
+            {
+              "id": "associate-degree",
+              "name": "associate-degree"
+            }
+          ],
+          "department": [
+            {
+              "id": "skilled-trades",
+              "name": "skilled-trades"
+            }
+          ],
+          "credential": "Certificate in Welding Technology / AAS in Welding Technology",
+          "duration": "9 months (Certificate) or 2 years (AAS)",
+          "credits": "32 credits (Certificate) / 64 credits (AAS)",
+          "tuitionEstimate": "$3,360 in-district (Certificate tuition only)",
+          "startDates": "Fall (August), Spring (January), Summer (June)",
+          "careerOutcomes": [
+            "Welder",
+            "Fabricator",
+            "Welding Inspector",
+            "Pipeline Welder",
+            "Manufacturing Technician"
+          ],
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+            "alt": "Welding student practicing in the workshop",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
