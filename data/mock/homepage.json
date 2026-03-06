@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-enrollment",
               "title": "",
-              "number": "12,000+",
+              "number": "12,000+", "value": "12,000+",
               "label": "Students Enrolled"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-programs",
               "title": "",
-              "number": "85+",
+              "number": "85+", "value": "85+",
               "label": "Degree & Certificate Programs"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-transfer",
               "title": "",
-              "number": "92%",
+              "number": "92%", "value": "92%",
               "label": "Transfer Acceptance Rate"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-tuition",
               "title": "",
-              "number": "$4,200",
+              "number": "$4,200", "value": "$4,200",
               "label": "Annual Tuition (In-District)"
             }
           ],
